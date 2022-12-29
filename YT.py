@@ -2,7 +2,7 @@
 from pytube import YouTube, Playlist
 
 # YT link to download
-video = YouTube('https://www.youtube.com/shorts/tLE9VB6ICH4')
+video = YouTube('INGRESE SU URL PARA DESCARGA')
 
 # Parámetros para la descarga
 video.streams.filter(progressive=True, file_extension='mp4').order_by(
